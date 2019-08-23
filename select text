@@ -1,0 +1,16 @@
+Hello, please choose one of following options:
+1) Check balance
+2) Add money to account
+3) Withdraw money from account
+4) Quit
+What will you like to do?
+
+The instructions advise the programmer to write a program that allows a customer to choose from the following options to navigate their bank account. They will need the option to check their balance, deposit money into their account, withdraw money from the account until they hit q to quit.
+
+1) Check balance, when the user goes to check their balance the current balance should be visible. You will need to enact code that would make sure there is a dollar sign indicating dollar amount.
+
+2) Deposit Balance, When the user wants to depsit money in their account prompt the user to advise how much they will deposit. You must update the new balance and print the updated balance
+
+3) Withdraw money, When the user want to withdraw money code needs to be enacted that will prompt the user to advise how much they would like to withdraw? If funds available does not meet the requirement to withdraw return the verbiage "insufficient funds. If the has the appropriate balance to withdraw enact code that would allow the new balance to be displayed and print a statement showing the new balance.
+
+If the above code is completed go into a more detailed code that would personalize the users name and ask for their pin number if they are unable to guess the correct pin number ask them to input the pin again.
