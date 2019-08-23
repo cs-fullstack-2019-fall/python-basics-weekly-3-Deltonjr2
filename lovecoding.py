@@ -50,6 +50,7 @@ print(
  '1. checkBalance'
  '2. deposit'
  '3. withdraw'
+ '4. quit'
 
 )
 # Options that allow the uset to choose with transaction they would like
@@ -64,16 +65,26 @@ bankUserbalance = str (input(" The balance of the account is $3000.00"))
 print
 (bankUserbalance)
 
+
+
 # Check and respond to the menu item selected by the user
 # if bankUser == 2_( #user selected they want to deposit money in the
 
-bankUser = int (input('Enter the number of the menu option you want'))
-bankUser=(input("How much money do you want to deposit into the account?"))
-bankUserDeposit = str (input("I want to deposit $2000.00 in the account"))
+bankUser2 = int (input('Enter the number of the menu option you want'))
+bankUser2=int(input("How much money do you want to deposit into the account?"))
+bankUserDeposit2 = str (input("I want to deposit $2000.00 in the account"))
 bankUser2= str (input("New Balance is $5000.00"))
 
-print( bankUserDeposit)
+print( bankUserDeposit2)
 print (bankUser2)
 
 # Check and respond to the menu item selected by the user
-# if bankUser == 2_( #user selected they want to deposit money in the
+# if bankUser == 3_( #user selected they want to withdraw money)
+bankUser3 = int (input('Enter the number of the menu option you want'))
+bankUser3=(input("I want to withdraw $5500.00 from the account"))
+nomoney= ("insufficient funds")
+ if bankUser3 < 5000.00:
+    print (nomoney)
+
+
+ if bankUser
