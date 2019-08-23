@@ -53,6 +53,8 @@ print(
  '4. quit'
 
 )
+
+
 # Options that allow the uset to choose with transaction they would like
 bankUser = int (input('Enter the number of the menu option you want'))
 bankUserbalance = str (input(" The balance of the account is $3000.00"))
@@ -83,8 +85,6 @@ print (bankUser2)
 bankUser3 = int (input('Enter the number of the menu option you want'))
 bankUser3=(input("I want to withdraw $5500.00 from the account"))
 nomoney= ("insufficient funds")
- if bankUser3 < 5000.00:
-    print (nomoney)
 
 
- if bankUser
+
