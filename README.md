@@ -1,3 +1,7 @@
+#### You have some of the pieces but need to practice grouping them with into code blocks using 
+#### conditional (if) and loop (for, while) blocks
+
+
 # python-basics-weekly-3
 
 ## Create a bank program.
