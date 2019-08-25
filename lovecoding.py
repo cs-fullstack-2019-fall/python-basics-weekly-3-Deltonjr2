@@ -39,10 +39,28 @@
 # Before the program starts, ask the user for their account name and a pin number.
 #
 # Instead of using "you", use the account user's name
-# Before allowing them to withdraw, check to see if they know the pin number. If they don't get the correct pin, ask them to try again.
+# Before allowing them to withdraw, check to see if they know the pin number.
+# If they don't get the correct pin, ask them to try again.
 # SERIOUSLY, POINTS WILL BE TAKEN OFF FOR NOT COMMENTING
 
 # // Setup main menu command loop options to give user to choose from
+
+### There are references to fixed dollar amounts like 3000, 2000 and 5000 in your prompt
+### when you are getting User input.
+### The user can enter any number, not just those amounts. You should use whatever number
+### they enter in your balance calculation for a deposit or withdraw.
+
+### You have the beginnings of a menu, but it only prints at start and is not wrapped in a main
+### control loop so User continues until they quit.
+### You have some of the code needed for the menu options, but you are not using conditionals (if)
+### to check what number the user entered and only run the code for selected feature (ex. Deposit)
+### before returning to the main menu.
+
+### As submitted, won't run because of partial piece of code at bottom. If you comment that out,
+### it runs, and does some of what it needs to do, but the functionality wasn't separated into separate code blocks
+### with proper if statements and those if blocks weren't wrapped in a main control loop block so it would let the
+### user do more than one action until quit.
+
 
 bankUser=-2
 print(
@@ -53,8 +71,6 @@ print(
  '4. quit'
 
 )
-
-
 # Options that allow the uset to choose with transaction they would like
 bankUser = int (input('Enter the number of the menu option you want'))
 bankUserbalance = str (input(" The balance of the account is $3000.00"))
@@ -85,6 +101,13 @@ print (bankUser2)
 bankUser3 = int (input('Enter the number of the menu option you want'))
 bankUser3=(input("I want to withdraw $5500.00 from the account"))
 nomoney= ("insufficient funds")
+if bankUser3 < 5000.00:
+    print (nomoney)
 
-
-
+### Always submit assignment code will run.
+### Push your changes frequently after every completed and tested addition and before
+### you go on to the next requirement. Then if you run out of time, you can just stick with
+### your most reason version of your program that containing code that worked. And you get
+### credit for what code does run. If we can't run the final submission, we can't test the code that was completed.
+### NOTE seems you did remove the broken code so good job! Unfortunately that was at 5:04 so I didn't see it. Still, advice above applies for every assignment project.
+if bankUser
